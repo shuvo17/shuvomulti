@@ -1,0 +1,120 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+body{
+	font-family: all;
+}
+header{
+	background-image:url(background.jpg);
+	height: 100vh;
+	background-size: cover;
+	width: 100%;
+	background-repeat: no-repeat;
+	border: 2px solid #fff;
+}
+.logo img{
+	height: 200px;
+	float: left;
+}
+.menu{
+	float: left;
+	list-style-type: none;
+
+}
+
+.menu li{
+	display: inline-block;
+	margin-left: 30px;
+	
+     border-radius: 5%;
+
+	
+	margin-top: 70px;
+
+}
+.menu  li a{
+	font-family: Bookman Old Style;
+	font-size: 30px;
+	text-decoration: none;
+	color: black;
+
+
+}
+.menu li a:hover{
+	
+	color:blue;
+	border-bottom: 2px solid blue;
+	padding: 10px 5px;
+	transition: all 0.5s ease-in;
+
+}
+.menu li a:focus{
+	background-color: #dedede;
+}
+.down{
+	height: 200px;
+	width: 100%;
+	background-color: #B0ECF7;
+
+}
+h1{
+	text-align: center;
+	font-size: 40px;
+	border-bottom: 1px solid white;
+
+
+}
+.down img{
+	height: 80px;
+	width: 80px;
+	margin-right: 165px;
+	margin-top: 10px;
+
+}
+h4{
+	float: left;
+	margin-right: 170px;
+	letter-spacing: 1px;
+
+}
+.footer{
+	height: 60px;
+	width: 100%;
+	background: #4C4C4C;
+}
+.video{
+	margin-top: 100px;
+	float: right;
+}
+h4:hover{
+
+	transition: all 0.5s ease-in;
+	padding: 10px 10px;
+}
+.buttom{
+	margin-top:600px;
+	margin-left:60px;
+	color: black;
+	
+
+}
+.btn-half:hover{
+	background-color: #3AE3FF;
+	color: black;
+	transition: all 0.8s ease-in;
+	border: 2px solid black;
+	font-size: 20px;
+	padding: 5px 5px;
+	border-radius: 20%;
+}
+.btn-full:hover{
+	background-color:#3AE3FF;
+	color: black;
+	transition: all 0.8s ease-in;
+	border: 2px solid black;
+	font-size: 20px;
+	padding: 5px 5px;
+	border-radius: 20%;
+}
